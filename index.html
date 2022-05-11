@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+            
+            <title>Decodificador</title>
+            
+            <link rel="stylesheet" href="style.css">
+
+    </head>
+        <header class="logo">
+            <img src="Vector.png">
+        </header>
+
+    <body>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="90" rows="15" placeholder="Digite seu texto"></textarea>
+
+                <div>
+                    <h6 class="informacao"> &excl; Apenas letras minúsculas e sem acento.</h6>
+                </div>
+    
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+    
+                    <button class="desencripitar" onclick="btnDesencripitar()">
+                        Descriptografar
+                    </button>
+                </div>
+    
+            </section>
+
+            
+            <section>
+                <textarea input="text" name="texto" id="texto" placeholder="Mensagem Criptografada" class="mensagem" cols="45" rows="24" ></textarea>
+
+                <div class="botao">
+                    <button class="buttons" onclick="copiarTexto()">Copiar</button>
+                </div>
+                
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p class="corpyright">© Copyright Jean Viana - 2022</p>
+        </footer>
+
+        <script src="script.js"></script>    
+    </body>
+ </html>
